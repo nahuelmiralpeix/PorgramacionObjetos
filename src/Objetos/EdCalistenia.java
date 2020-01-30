@@ -93,36 +93,33 @@ public class EdCalistenia {
     }
 
     public static void agregarEjercicio() {
-        int hola=2;
-do {
-   /* System.out.println("Introducir ejercicio");
+
+    System.out.println("Introducir ejercicio");
     String ejercicio = teclado.next();
     teclado.nextLine();
     System.out.println("Introducir número de repeticiones");
     int repeticiones = teclado.nextInt();
     System.out.println("Introducir número de series");
-    int series = teclado.nextInt();*/
-   String ejercicio="hola";
-   int repeticiones=5;
-   int series=5;
+    int series = teclado.nextInt();
+
     Object[] unEjercicio = {ejercicio, repeticiones,series};
     boolean existe = false;
-    /*for (Object[] elemento : rutinas) {
+    for (Object[] elemento : rutinas) {
         if (elemento[0].equals(ejercicio)) {
             existe = true;
             break;
         } else {
             existe = false;
         }
-    }*/
-    /*if (existe) {
+    }
+    if (existe) {
         System.out.println("El ejercicio no se puede agregar ya existe");
     } else {
         rutinas.add(unEjercicio);
-    }*/
+    }
 
 
-}while(hola!=3);
+
 
 }
 }
