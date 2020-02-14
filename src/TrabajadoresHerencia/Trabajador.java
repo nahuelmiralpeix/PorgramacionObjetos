@@ -1,6 +1,6 @@
 package TrabajadoresHerencia;
 
-public class Trabajador {
+public abstract class Trabajador {
     protected String nombre,apellido,dni;
 
     public Trabajador(String nombre, String apellido, String dni) {
@@ -10,7 +10,7 @@ public class Trabajador {
     }
 
     public String mostrarDatos(){
-        return String.format(" %s, %s, %s%n",nombre,apellido,dni);
+        return String.format(" %s, %s, %s",nombre,apellido,dni);
     }
     public String getNombre() {
         return nombre;
