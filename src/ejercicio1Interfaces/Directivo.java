@@ -1,4 +1,4 @@
-package interfaces;
+package ejercicio1Interfaces;
 
 import ejercicio1Interfaces.Persona;
 
