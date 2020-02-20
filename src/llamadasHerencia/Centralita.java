@@ -18,13 +18,12 @@ public class Centralita {
             System.out.println(item.mostrarDatos());
         }
     }
-    public double calcularCostesTotales(){
-        double costeTotal=0.0;
+
+    public double calcularCostesTotales() {
+        double costeTotal = 0.0;
         for (Llamada item : listaLlamadas) {
-            costeTotal+=item.getCoste();
+            costeTotal += item.getCoste();
         }
         return costeTotal;
     }
-
-
 }
